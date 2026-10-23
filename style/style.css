@@ -1,0 +1,10 @@
+.hidden {
+    content-visibility: hidden;
+}
+
+div {
+    position: fixed;
+    padding-top: 10%;
+    padding-left: 20%;
+}
+
