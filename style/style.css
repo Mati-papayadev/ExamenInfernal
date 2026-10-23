@@ -1,7 +1,19 @@
 .hidden {
     content-visibility: hidden;
 }
+html {
+    background-color: black;
+    color: white;
+}
+#container {
+    background-color: aqua;
+}
 
+h1 {
+    position: fixed;
+    padding-top: 5%;
+    padding-left: 20%;
+}
 div {
     position: fixed;
     padding-top: 10%;

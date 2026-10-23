@@ -1,4 +1,3 @@
-const form = document.getElementById("formulario");
 const button1 = document.getElementById("siguiente1");
 const button2 = document.getElementById("siguiente2");
 const button3 = document.getElementById("siguiente3");
@@ -7,6 +6,8 @@ const button4 = document.getElementById("siguiente4");
 const usuario = document.getElementById("usuario");
 const correo = document.getElementById("correo");
 const contraseña = document.getElementById("contraseña");
+
+const nombre = document.getElementById("nombre");
 
 const container1 = document.getElementById("container1");
 const container2 = document.getElementById("container2");
@@ -30,8 +31,6 @@ function pasoSiguiente(index) {
         pasoSiguiente(3);
     });
 
-    
-    
 
 
 
